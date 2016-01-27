@@ -36,9 +36,20 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+
+	<repository>
+		<id>mesir-repo</id>
+		<url>http://mesir.googlecode.com/svn/trunk/mavenrepo</url>
+	</repository>
 	</repositories>
 	
 	<dependencies>
+
+	<dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>ojdbc14</artifactId>
+		<version>10.2.0.4.0</version>
+	</dependency>
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
